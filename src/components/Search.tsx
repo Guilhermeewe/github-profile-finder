@@ -24,7 +24,7 @@ function Search({ loadUser }: SearchProps) {
             <input
                 className='text-white bg-transparent p-1 m-4 border-b-2 rounded-sm border-b-zinc-600 hover:border-b-purple-500 duration-1000 text-1xl outline-none '
                 value={input}
-                placeholder='Insira o usuário'
+                placeholder='Enter user'
                 type="text"
                 onKeyDown={handleKeyDown}
                 onChange={(e) => setInput(e.target.value)} >

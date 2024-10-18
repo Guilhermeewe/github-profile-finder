@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${geistMono.variable} antialiased h-screen`}
+        className={`${geistMono.variable} antialiased h-screen animate-fadein`}
       >
         {children}
       </body>
