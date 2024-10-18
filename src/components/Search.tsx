@@ -22,9 +22,9 @@ function Search({ loadUser }: SearchProps) {
                 <TbCloudSearch size={30} />
             </button>
             <input
-                className='text-white bg-transparent p-1 m-4 border-b-2 rounded-sm border-b-zinc-600 hover:border-b-purple-500 duration-1000 text-1xl outline-none '
+                className='text-white bg-transparent p-3 m-3 border-b-2 rounded-sm border-b-zinc-600 hover:border-b-purple-500 duration-1000 text-1xl outline-none '
                 value={input}
-                placeholder='Enter user'
+                placeholder='Enter a user'
                 type="text"
                 onKeyDown={handleKeyDown}
                 onChange={(e) => setInput(e.target.value)} >

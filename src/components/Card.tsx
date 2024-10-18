@@ -37,7 +37,7 @@ function Card() {
         <div>
             <div className="absolute flex justify-center items-center min-w-full">
                 <div className="flex flex-col p-10 m-10 items-center gap-10 border-0 border-r-2"> {/* Card div*/}
-                    <h1 className="text-xl font-bold">GitHub Profile Finder</h1>
+                    <h1 className="text-xl font-bold animate-tada">GitHub Profile Finder</h1>
                     <ImGithub size={75} className="animate-bounce hover:opacity-30 duration-500" />
                     <Search loadUser={loadUser} />
                 </div>
